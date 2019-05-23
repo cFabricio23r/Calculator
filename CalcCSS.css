@@ -1,0 +1,87 @@
+h1 {
+  background: #0099D2;
+  color: #F0F0F0;
+  margin: 0;
+  padding: 10px 100px;
+  font-size: 35px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+button {
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #0BD211;
+  border-radius: 15px;
+  width: 250PX;
+  height: 75px;
+  font-size: 25px;
+  color: white;
+}
+
+button:hover {
+  background: #049408;
+}
+
+#body {
+  background: #BDCACB;
+  font-family: 'Indie Flower', cursive;
+  background: -webkit-linear-gradient(to left, #BDCACB, #878787);
+  background: linear-gradient(to left, #BDCACB, #878787);
+}
+
+#container {
+  height: 700px;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background: #f7f7f7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#calc { 
+  font-size: 25px;
+  text-align: center;
+ }
+
+
+#Monto {
+  font-size: 16px;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 8px;
+}
+
+#numPer {
+  width: 60%;
+  padding: 8px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+}
+
+#Servicio {
+  padding: 8px;
+  font-size: 18px;
+}
+
+#Total {
+  font-size: 35px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#Total:before {
+  content: "Monto de Tip";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+#Total small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}

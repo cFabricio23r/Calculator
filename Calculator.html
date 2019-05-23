@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="CalcCSS.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <title>Tip Calculator</title>
+</head>
+<body id="body">
+  <div id="container">
+    <h1>Calculadora de TIP</h1>
+    <div id="calc">
+      <form>
+        <p>Cuanto es el monto de la factura?<p>
+        <input id="Monto" type="number" placeholder="$ Monto">
+
+        <p>Como fue el servicio?<p>
+          <select id="Servicio">
+            <option disabled selected value="0">** Escoge una Opcion **</option>
+            <option value="0.2">20% - Excelente</option>
+            <option value="0.15">15% - Muy Bueno</option>
+            <option value="0.10">10% - Bueno</option>
+            <option value="0.05">5% - Malo</option>
+            <option value="0.025">2.5% - Terrible</option>
+          </select>
+      </form>
+      <p>Cuantas personas pagaran?</p>
+      <input id="numPer" type="number" placeholder="Numero de Personas">
+      <button type="button" id="Calcular" onclick="CalcularTip()" >Calcular</button>
+    </div>
+    <div id="Total">
+      <span id="tip">0.00</span>
+      <small id="per">Por Persona</small>
+    </div>
+  </div>
+
+
+<script type="text/javascript" src="CalcJS.js"></script>
+</body>
+</html>
+
+
+
+
+
+
